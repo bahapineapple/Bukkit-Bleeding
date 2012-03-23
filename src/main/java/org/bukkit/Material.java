@@ -23,7 +23,7 @@ public enum Material {
     GRASS(2),
     DIRT(3),
     COBBLESTONE(4),
-    WOOD(5),
+    WOOD(5, Tree.class),
     SAPLING(6, Tree.class),
     BEDROCK(7),
     WATER(8, MaterialData.class),
